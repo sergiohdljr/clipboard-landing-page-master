@@ -1,0 +1,68 @@
+.keepTrackOfYourSnippets{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+}
+
+.keepTrackOfYourSnippets .titulo{
+    font-size: 1.8rem;
+}
+
+.keepTrackOfYourSnippets .spanText{
+    width: 41%;
+    height: auto;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
+.monitorDesktop{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.desktop{
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.imgDesktop{
+    min-width: 80%;
+    position: relative;
+    right: 1rem;
+}
+.info{
+    width: 50%;
+    height: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.tituloInfo{
+    width: 59%;
+    color: var(--Dark-Grayish-Blue);
+    text-align: start
+}
+
+.spanInfo{
+    color: var(--Grayish-Blue);
+    margin-top: 0.5rem;
+    flex-grow: 1;
+    width: 59%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    line-height: 1.6rem;
+}

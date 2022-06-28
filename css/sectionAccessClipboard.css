@@ -1,0 +1,33 @@
+
+.accessClipboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+.accessClipboard .titulo{
+    font-size: 1.8rem;
+}
+
+.accessClipboard .spanText{
+    width: 40%;
+    height: auto;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
+.mobile{
+    margin-top: 3rem;
+    width: 60%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgMobile{
+    min-width: 80%;
+}
