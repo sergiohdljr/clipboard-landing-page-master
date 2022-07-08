@@ -21,13 +21,13 @@
 
 .mobile{
     margin-top: 3rem;
-    width: 60%;
-    height: 80vh;
+    width: 100%;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .imgMobile{
-    min-width: 80%;
+    min-width: 50%;
 }
