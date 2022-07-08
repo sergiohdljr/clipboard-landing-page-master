@@ -67,7 +67,11 @@
     line-height: 1.6rem;
 }
 
-@media (max-width: 850px){
+@media (max-width: 610px){
+
+    .keepTrackOfYourSnippets{
+        width: auto;
+    }
 
     .keepTrackOfYourSnippets .titulo{
         margin-bottom: 0.5rem;
@@ -80,25 +84,31 @@
     line-height: 1.4rem;
 }
 
-.monitorDesktop{
+    .monitorDesktop{
     margin-top: 1.5rem;
     width: 100%;
-    height: 70%;
+    height: auto;
     display: flex;
     flex-direction: column;
 }
 
 .desktop{
-    width: 90%;
+    width: 80%;
     height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .imgDesktop{
     position: initial;
+    width: 100%;
+    max-width: 344px;
 }
 
 .info{
     width: 90%;
+    height: 414px;
 }
 
 .tituloInfo{

@@ -20,3 +20,18 @@
     flex-grow: 1;
      color: var(--Grayish-Blue);
 }
+
+@media (max-width: 610px){
+    .download {
+        margin-top: 2rem;        
+        height: 300px;
+    }
+
+    .download h2{
+        width: 80%;
+    }
+
+    .download span{
+        width: 80%;
+    }
+}

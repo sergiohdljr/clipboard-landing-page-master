@@ -64,3 +64,28 @@
     color: var(--Grayish-Blue);
 }
 
+@media (max-width: 610px){
+
+
+    .supercharge .titulo{
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.supercharge .spanText{
+    width: 80%;
+}
+
+.box{
+    flex-direction: column;
+    margin-top: 1.5rem;
+}
+
+.card{
+    width: 100%;
+}
+
+.card span{
+    width: 100%;
+}
+}
