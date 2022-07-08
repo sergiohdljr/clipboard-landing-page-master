@@ -66,3 +66,50 @@
     justify-content: center;
     line-height: 1.6rem;
 }
+
+@media (max-width: 850px){
+
+    .keepTrackOfYourSnippets .titulo{
+        margin-bottom: 0.5rem;
+    }
+
+    .keepTrackOfYourSnippets .spanText{
+    width: 80%;
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.4rem;
+}
+
+.monitorDesktop{
+    margin-top: 1.5rem;
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+.desktop{
+    width: 90%;
+    height: 300px;
+}
+
+.imgDesktop{
+    position: initial;
+}
+
+.info{
+    width: 90%;
+}
+
+.tituloInfo{
+    text-align: center
+}
+
+.spanInfo{
+    color: var(--Grayish-Blue);
+    margin-top: 0.5rem;
+    text-align: center;
+    width: 90%;
+    display: block;
+}
+}

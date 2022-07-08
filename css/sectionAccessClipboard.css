@@ -31,3 +31,17 @@
 .imgMobile{
     min-width: 50%;
 }
+
+@media (max-width: 850px){
+    .accessClipboard .titulo{
+    margin-bottom: 0.5rem;
+}
+
+    .accessClipboard .spanText{
+    width: 80%;
+}
+
+    .mobile{
+        margin-top: 1.5rem;
+    }
+}

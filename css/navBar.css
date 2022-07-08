@@ -85,4 +85,38 @@ header{
     border-bottom: 2.5px solid hsl(233, 97%, 65%);
 }
 
+@media (max-width:850px) {
 
+    .historyOfEverything{
+        height: 50vh;
+    }
+
+    .titulo{
+        font-size: 2rem;
+        width: 90%;
+        text-align:center;
+    }
+
+    .spanText{
+    width: 80%;
+    text-align: center;
+    margin-top: 0rem;
+    flex-grow: 0;
+    flex-wrap: wrap;
+    line-height: 1.5rem;
+}
+
+    .botoes{
+        width: 100%;
+        height: auto;
+        gap: 0.7rem;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .btn{
+        width: 90%;
+    }
+    .Ios{
+        margin-right: 0;
+    }
+}
