@@ -1,10 +1,11 @@
 .download{
     width: 100%;
-    height: 175px;
+    height: 200px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    padding-top: 1rem;
 }
 
 .download h2{
@@ -15,16 +16,18 @@
 
 .download span{
     margin-top: 0.5rem;
-    width: 42%;
+    width: 39%;
     text-align: center;
     flex-grow: 1;
      color: var(--Grayish-Blue);
 }
 
 @media (max-width: 610px){
+    
     .download {
-        margin-top: 2rem;        
         height: 300px;
+        margin-top: 2rem;
+        margin-bottom: 2rem;   
     }
 
     .download h2{
@@ -33,5 +36,12 @@
 
     .download span{
         width: 80%;
+        flex-grow: 0;
+        display: block;
+        height: 90px;
     }
+
+    .botoes{
+    margin-top: 0;
+}
 }

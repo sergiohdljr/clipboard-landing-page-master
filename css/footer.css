@@ -35,13 +35,19 @@ li{
 }
 
 .social{
-    width: 12%;
+    width: 10%;
     height: 65%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+    margin-right: 0.5rem;
 }
 
+@media (max-width: 810px){
+    .social{
+        width: 15%;
+    }
+}
 @media (max-width: 610px){
     footer{
         height: 400px;
@@ -69,6 +75,7 @@ footer>figure>img{
 }
 
 .social{
-    width: 50%;
+    width: 20%;
+    margin-right: 0;
 }
 }

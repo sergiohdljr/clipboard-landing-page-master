@@ -1,5 +1,7 @@
 .marcas{
-    margin: 0 auto;
+    margin:0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     width: 90%;
     height: 250px;
     display: flex;
@@ -9,16 +11,31 @@
 }
 
 .marcas figure{
-    width: 15%;
+    width: 20%;
     height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+@media (max-width: 840px){
+    .marcas{
+        flex-direction: row;
+        height: auto;
+    }
+
+    .marcas figure{
+        width: 50%;
+    }
+}
+
 @media (max-width: 610px){
     .marcas{
         flex-direction: column;
         height: auto;
+    }
+
+    .marcas figure{
+        width: 100%;
     }
 }
